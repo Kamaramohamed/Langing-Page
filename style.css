@@ -1,0 +1,34 @@
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+    color :#F9FAF8;
+}
+
+li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button{
+    background-color: #3882F6;
+}
