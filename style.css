@@ -1,34 +1,155 @@
-header{
-    background-color: #1F2937;
-    color: white;
+html {
+  box-sizing: border-box;
 }
 
-.logo{
-    font-size: 24px;
-    color :#F9FAF8;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-li{
-    font-size: 18px;
-    color: #E5E7EB;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
 
-h1{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
+ol,
+ul {
+  list-style: none;
 }
 
-.hero{
-    background-color: #1F2937;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-
-.hero-text{
-    font-size: 18px;
-    color: #E5E7EB;
+#container {
+  
+  
+  margin: auto 0;
 }
 
-.button{
-    background-color: #3882F6;
+header {
+  background-color: #1f2937;
+  color: white;
+}
+
+.divHeader {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px;
+  list-style: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding-bottom: 150px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin:  30px 0px 10px;
+  width: 500px;
+ 
+}
+
+#div-links-text{
+    text-align: left;
+    
+}
+
+.hero-text-right{
+    background-color: lightgray;
+    padding-left: 200px;
+    padding-right: 200px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+    
+    
+  
+
+}
+
+.button {
+  background-color: #3882f6;
+}
+
+.main-top{
+    display: flex;
+    flex-direction: column;
+}
+ h2{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+.blokjes{
+    width: 100px;
+    height: 100px;
+    border:  solid lightblue;
+    margin-left:15px;
+    border-radius: 10%;
+    
+    
+}
+.blokAndText{
+    margin-left: 50px;
+}
+
+.blokjes, p{
+    text-align: center;
+   
+}
+
+#main-blokje{
+    display: flex;
+    margin-top: 30px;
+    margin: auto ;
+    padding-bottom: 100px;
+
+
+}
+
+#quotes{
+   
+    background-color: gray;
+    height: 250px;
+}
+
+#quotes p {
+    text-align: center;
 }
